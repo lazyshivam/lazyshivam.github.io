@@ -1,0 +1,182 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    background-color: rgb(197, 230, 230);
+
+}
+body{
+    /* background-color: rgb(192, 219, 219); */
+}
+
+header.container {
+   background-color: white;
+    position:sticky;
+    top: 0px;
+    left: 10px;
+    /* border: 2px solid red; */
+
+}
+
+.navbar {
+    overflow: auto;
+    background-color: white;
+
+
+    /* position:relative; */
+
+}
+
+.navbar li {
+    list-style: none;
+    padding: 2px 4px;
+    margin: 10px;
+   
+
+}
+
+
+.navbar li a {
+    text-decoration: none;
+    color: rgb(0, 5, 5);
+    padding: 10px 20px;
+
+}
+
+#box1 {
+    float: left;
+
+
+}
+
+.navbar li,
+#box2,
+#box3,
+#box4 {
+    float: right;
+
+}
+
+strong {
+    font-size: 30px;
+}
+
+.navbar ul li,
+a:hover {
+    background-color: grey
+}
+
+div.container h1 {
+    color: white;
+    position: absolute;
+    right: 600px;
+    top: 457px;
+    /* display: block; */
+    font-size: 50px;
+
+
+
+}
+
+div.container h1 strong {
+    padding: 30px;
+    padding: 20px;
+    font-size: 80px;
+    margin: 17px;
+    opacity: 0.75;
+    background-color: rgb(97 83 89);
+}
+.house li h3{
+    color: white;
+    background-color: black;
+    width: 200px;
+    position:absolute;
+    margin-top: 0px;
+
+}
+.house li{
+    list-style: none;
+    float: left;
+    margin: 7px;
+}
+.container2 p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.container2 {
+    margin-top: 10px;
+    padding: 10px;
+    /* border: 2px solid red; */
+    overflow: auto;
+    display: inline-block;
+}
+
+.architech div {
+    width: 300px;
+    margin: 25px;
+    padding: 10px;
+    float: left;
+
+}
+
+.architech div p {
+    font-size: 15px;
+}
+
+.architech div .position {
+    font-size: 20px;
+    opacity: 0.75;
+}
+
+.architech div .btn {
+    padding: 6px;
+    margin-top: 15px;
+    width: 300px;
+    font-size: 18px;
+    background-color: rgb(145, 139, 139);
+    border-radius: 2px;
+    border: none;
+
+}
+
+div .btn:hover {
+    background-color: rgb(214, 180, 118);
+}
+.container3{
+    /* border: 2px solid red; */
+    display: inline-block;
+    margin-top: 10px;
+    
+           
+        }
+        form .ipt {
+            display: inline-block;
+            margin: 15px 0px;
+            padding: 0px 10px;
+            width: 1475px;
+            border-radius: 3px;
+            /* border:rgb(155, 38, 38); */
+            background-color: white;
+           
+          
+
+
+        }
+        form .ipt:hover{
+            background-color: rgb(156, 152, 156);
+        }
+
+        form #btn {
+            background-color: black;
+            color: white;
+            margin: 3px 3px;
+            padding: 3px 4px;
+            font-size: 25px;
+            width: 300px;
+            border-radius: 3px;
+            
+        }
+        form #btn:hover{
+            background-color: rgb(20, 20, 20);
+            cursor: pointer;
+        }
