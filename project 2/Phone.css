@@ -11,4 +11,10 @@
     top: -152px;
     left: 83px;
 }
+#aboutus-1 .picsidetext {
+    display: flex;
+    width: 43%;
+    position: relative;
+    left: -80px;
+}
 }
