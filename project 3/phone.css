@@ -1,0 +1,18 @@
+@media only screen and (max-width:400px) {
+
+    .Homepage::before {
+        width: 400%;
+
+    }
+
+    .Homepage .contant {
+        width: 800px;
+
+    }
+
+    .page1 .container1 .image-1 img {
+      
+        position: relative;
+        top: -40%;
+        left: 25%;
+    }
