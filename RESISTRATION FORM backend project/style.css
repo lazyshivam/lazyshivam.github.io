@@ -1,0 +1,346 @@
+/* for student name */
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.head {
+    width: 700px;
+    /* margin: 10px 100px; */
+}
+
+.container ::before {
+    content: "";
+    background-image: url('bg.png');
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 220vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* opacity: 0.9; */
+
+}
+
+.container {
+    width: 700px;
+    margin: auto;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* border: 2px solid red; */
+    background-color: cadetblue;
+    box-shadow: 5px 5px 50px 10px;
+    /* text-align:justify; */
+    /* justify-content: center; */
+    /* background-color: rgb(201, 120, 120); */
+
+}
+
+.myname {
+    padding-top: 20px;
+}
+
+.name {
+    display: flex;
+    flex-direction: row;
+    /* padding-top: 20px; */
+    flex-wrap: wrap;
+
+
+}
+
+.firstname {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+
+    padding-right: 28px;
+}
+
+.middlename {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    padding-right: 28px;
+
+}
+
+.lastname {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    /* padding-right:2px ; */
+
+}
+
+#name {
+    width: 200px;
+    height: 30px;
+    /* padding: 20px; */
+}
+
+#lable {
+    padding-top: 10px;
+}
+
+
+/* for birth data and gender */
+
+
+.birth_gender {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+
+}
+
+.birthdate {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    /* display: inline-block; */
+
+}
+
+#birthdate {
+    width: 70px;
+    height: 35px;
+}
+
+.DD {
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+}
+
+.MM {
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+
+}
+
+.YY {
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+
+}
+
+.gender {
+    padding-left: 180px;
+}
+
+#gender {
+    width: 300px;
+    height: 35px;
+}
+
+
+/* css for address */
+.myaddress {
+    padding-top: 20px;
+}
+
+.address {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+
+}
+
+
+
+
+.city_state {
+    display: flex;
+    flex-direction: row;
+}
+
+#my-city-state {
+    display: flex;
+    flex-direction: column;
+    padding-right: 45px;
+
+}
+
+.state {
+    padding-left: 20px;
+}
+
+/* #state {
+    width: 200px;
+    height: 30px;
+}
+
+#city {
+    width: 200px;
+    height: 30px;       
+
+}
+#zipcode{
+    
+    width: 400px;
+    height: 30px;
+} */
+.postal {
+    padding-top: 20px;
+}
+
+
+/* student information */
+.email-mobile {
+    display: flex;
+    flex-direction: row;
+    /* padding-right: 246px; */
+}
+
+.mobile {
+
+    padding-left: 65px;
+}
+
+.phone-work {
+    display: flex;
+    flex-direction: row;
+}
+
+.work {
+    padding-left: 65px;
+}
+
+/* utilities classes */
+.primary-width {
+    width: 300px;
+    height: 30px;
+}
+
+#address {
+    width: 672px;
+    height: 30px;
+}
+
+.h-primary {
+    font-size: 1.2rem;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.h-secondary {
+    color: rgb(41, 40, 40);
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* media Quarry */
+@media screen and (max-width:500px) {
+    .head {
+        border: 2px solid red;
+        font-size: 3.0rem;
+
+    }
+
+    .h-primary {
+        font-size: 2.5rem;
+    }
+
+    .h-secondary {
+        font-size: 1.5rem;
+        margin-bottom: 60px;
+        margin-top: 10px;
+    }
+
+    .name {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .primary-width {
+        /* width: 400px; */
+        height: 50px;
+    }
+
+    #zipcode {
+        width: 672px;
+    }
+
+    #name {
+        width: 300px;
+        height: 50px;
+    }
+
+    #gender {
+        width: 300px;
+        height: 50px;
+    }
+
+    #birthdate {
+        width: 80px;
+        height: 50px;
+    }
+
+    #address {
+        width: 672px;
+        height: 50px;
+    }
+
+    .middlename {
+        padding-left: 28px;
+    }
+
+    .email-mobile {
+        flex-wrap: wrap;
+    }
+
+    #mobile-width {
+        width: 672px;
+        height: 50px;
+    }
+    .email{
+      margin-top: 10px;
+    
+    }
+    .mobile {
+        margin-top: 10px;
+      
+        padding-left: 0px;
+    }
+    .phone{
+        margin-top: 10px;
+    }
+    .work{ margin-top: 10px;
+    }
+    .company{
+        margin-top: 10px;
+    }
+    .courses{
+        margin: 10px 0px;
+    }
+    .phone-work{
+        display: flex;
+        flex-wrap: wrap;
+      
+    }
+    .work {
+        padding-left: 0px;
+    }
+    #mycontainer {
+        /* width: 695px; */
+        /* margin: auto; */
+        /* padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px; */
+        /* border: 2px solid red; */
+        /* background-color: cadetblue; */
+        box-shadow: none;
+        /* text-align:justify; */
+        /* justify-content: center; */
+        /* background-color: rgb(201, 120, 120); */
+    
+    }
+}
