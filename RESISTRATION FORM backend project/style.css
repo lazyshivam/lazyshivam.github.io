@@ -239,7 +239,7 @@ body {
 /* media Quarry */
 @media screen and (max-width:500px) {
     .head {
-        border: 2px solid red;
+        /* border: 2px solid red; */
         font-size: 3.0rem;
 
     }
@@ -330,11 +330,11 @@ body {
         padding-left: 0px;
     }
     #mycontainer {
-        /* width: 695px; */
-        /* margin: auto; */
-        /* padding-left: 20px;
-        padding-top: 10px;
-        padding-bottom: 10px; */
+        width: 740px;
+        margin: auto; 
+     padding-left: 70px;
+        /* padding-top: 10px; */
+        /* padding-bottom: 10px;  */
         /* border: 2px solid red; */
         /* background-color: cadetblue; */
         box-shadow: none;
